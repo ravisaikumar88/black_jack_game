@@ -47,7 +47,6 @@ function renderGame(){
     else if(sum === 21){
         message = "woooha!!You've won the game"
         isBlackJack = true
-        isAlive = false
         cards = []
     }
     else{
